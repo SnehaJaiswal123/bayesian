@@ -62,7 +62,8 @@ function App() {
       'date': '2024-07-09T12:00:17.796Z',
   }
     
-      try {     
+      try { 
+        setAvail(true)    
         setLoad(true)
         setAirlines([])
         const response = await fetch('https://cardgpt.in/apitest', {
